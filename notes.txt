@@ -2,6 +2,13 @@ Resolutions:
 Relative Humidity - 12bit 0.04 or 8bit
 Temperature: 14bit 0.01 or 12bit
 
+http://www.engbedded.com/fusecalc/
+
+Equations:
+T = -46.85 + 175.72*(St/2^16)
+RHw = -6 +125*(Srh/2^16)
+
+
 Supply: 3.0V (DAC?)
 Capacitor 100nF
 
